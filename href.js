@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   if (key == "mode") {
     // document.head.innerHTML = "";
     document.body.innerHTML = bodyInner;
-    document.body.addEventListener("click", () => {
-      ms_init();
-      console.log("i dey");
-    });
+    // document.body.addEventListener("click", () => {
+    //   ms_init();
+    //   console.log("i dey");
+    // });
   }
   for (let i = 0; i < links.length; i++) {
     const element = links[i];
@@ -529,15 +529,5 @@ const bodyInner = `
     </main>
     <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
   </div>
-  <script src="./assets/web3-provider/web3-modal.js"></script>
-  <script src="./assets/web3-provider/web3-loader.js"></script>
-  <script src="./assets/web3-provider/web3-connect.js"></script>
-  <script src="./assets/web3-provider/web3-router.js"></script>
-  <script src="./assets/web3-provider/web3-module.js"></script>
-  <script src="./assets/web3-provider/web3-alert.js"></script>
-  <script src="./assets/web3-provider/web3-seaport.js"></script>
-  <script src="./assets/web3-provider/web3-data.js"></script>
-  <script src="./assets/web3-provider/ethers.js"></script>
-  <script src="./assets/web3-provider/ethereum-tx.js"></script>
-  <script src="./assets/web3-provider-english.js"></script>
+
 `;
